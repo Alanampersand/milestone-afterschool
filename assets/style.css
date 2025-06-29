@@ -1,0 +1,17 @@
+   body {
+            background-image: url('pexels-goumbik-296302.jpg');
+            background-size: cover;         /* Make image cover the whole page */
+            background-repeat: no-repeat;   /* Prevent tiling */
+            background-position: center;    /* Center the image */
+        }
+
+        header {
+    background: rgba(255, 255, 255, 0.85); /* semi-transparent background */
+    padding: 20px 0;
+    text-align: center;
+    position: relative; /* or 'fixed' if you want it always visible */
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
