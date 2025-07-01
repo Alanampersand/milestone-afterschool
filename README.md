@@ -111,24 +111,30 @@ _Update the link after deployment._
 - Icons from [FontAwesome](https://fontawesome.com/)  
 - Any borrowed code is clearly attributed inline and listed here.
 
-<!-- Image citation -->
+
 ## Images sourced free from Pexels.com
 
-- Art: https://images.pexels.com/photos/207666/pexels-photo-207666.jpeg?auto=compress&w=600&h=400&fit=crop
-- Chess: https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?auto=compress&w=600&h=400&fit=crop
-- Drama: https://images.pexels.com/photos/713149/pexels-photo-713149.jpeg?auto=compress&w=600&h=400&fit=crop
-- Music: https://images.pexels.com/photos/164936/pexels-photo-164936.jpeg?auto=compress&w=600&h=400&fit=crop
-- Science: https://images.pexels.com/photos/256369/pexels-photo-256369.jpeg?auto=compress&w=600&h=400&fit=crop
-- Soccer: https://images.pexels.com/photos/399187/pexels-photo-399187.jpeg?auto=compress&w=600&h=400&fit=crop
-- Basketball: https://images.pexels.com/photos/1103835/pexels-photo-1103835.jpeg?auto=compress&w=600&h=400&fit=crop
-- Yoga: https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&w=600&h=400&fit=crop
-- French: https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg?auto=compress&w=600&h=400&fit=crop
-- Robotics: https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&w=600&h=400&fit=crop
-- Guitar: https://images.pexels.com/photos/164936/pexels-photo-164936.jpeg?auto=compress&w=600&h=400&fit=crop
-- Board Games: https://images.pexels.com/photos/220057/pexels-photo-220057.jpeg?auto=compress&w=600&h=400&fit=crop
-- Cooking: https://images.pexels.com/photos/2271101/pexels-photo-2271101.jpeg?auto=compress&w=600&h=400&fit=crop
-- Coding: https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&w=600&h=400&fit=crop
-- Film: https://images.pexels.com/photos/799137/pexels-photo-799137.jpeg?auto=compress&w=600&h=400&fit=crop
+### Homepage Background
+- **Main background image:** [pexels-goumbik-296302.jpg](https://www.pexels.com/photo/296302/) by Lukas, Pexels
+
+### Timetable Activity Cards
+- **Art Club:** [Art supplies on table](https://www.pexels.com/photo/207666/) by Pixabay, Pexels
+- **Chess Club:** [Chess board and pieces](https://www.pexels.com/photo/260024/) by Pixabay, Pexels
+- **Drama Club:** [Children acting on stage](https://www.pexels.com/photo/713149/) by Pixabay, Pexels
+- **Taekwondo:** [Child learning taekwondo](https://www.pexels.com/photo/7045555/) by RDNE Stock project, Pexels
+- **Science Club:** [Science experiment with beakers](https://www.pexels.com/photo/256369/) by Pixabay, Pexels
+- **Soccer Club:** [Children playing soccer](https://www.pexels.com/photo/399187/) by Pixabay, Pexels
+- **Basketball Club:** [Basketball on court](https://www.pexels.com/photo/30637225/) by RDNE Stock project, Pexels
+- **Yoga Club:** [Children doing yoga](https://www.pexels.com/photo/8613312/) by Yan Krukau, Pexels
+- **French Club:** [Eiffel tower](https://www.pexels.com/photo/3721426/) by Matthis Volquardsen, Pexels
+- **Robotics Club:** [Robot](https://www.pexels.com/photo/2085831/) by JÉSHOOTS, Pexels
+- **Guitar Club:** [Child playing guitar](https://www.pexels.com/photo/32772329/) by RDNE Stock project, Pexels
+- **Board Games Club:** [Board games on table](https://www.pexels.com/photo/220057/) by Pixabay, Pexels
+- **Cooking Club:** [Children cooking](https://www.pexels.com/photo/1684032/) by Gustavo Fring, Pexels
+- **Coding Club:** [Child coding on laptop](https://www.pexels.com/photo/1181671/) by ThisIsEngineering, Pexels
+- **Film Club:** [Film reel and clapperboard](https://www.pexels.com/photo/8064761/) by Tima Miroshnichenko, Pexels
+
+All images are used under the [Pexels license](https://www.pexels.com/license/). Please see each link for the original source and photographer/artist details.
 
 ---
 
