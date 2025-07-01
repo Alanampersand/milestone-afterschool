@@ -95,7 +95,8 @@ Add Wireframes here:
 
 ## Deployment
 
-The site is deployed via **GitHub Pages** and can be accessed at:
+- For testing locally, I used `python3 -m http.server 8000` to start a local web server and visited http://localhost:8000 frequently when making changes 
+- I then  deployed via **GitHub Pages** following GitHub's documentation [Github Pages](https://pages.github.com/) and this can be accessed at:
 
 > 🔗 [later](later)
 
@@ -103,12 +104,31 @@ _Update the link after deployment._
 
 ---
 
-## 🧾 Attribution
+## Attribution
 
 - Custom code written by Alan Doyle  
 - Layout assisted using [Bootstrap](https://getbootstrap.com/)
 - Icons from [FontAwesome](https://fontawesome.com/)  
 - Any borrowed code is clearly attributed inline and listed here.
+
+<!-- Image citation -->
+## Images sourced free from Pexels.com
+
+- Art: https://images.pexels.com/photos/207666/pexels-photo-207666.jpeg?auto=compress&w=600&h=400&fit=crop
+- Chess: https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?auto=compress&w=600&h=400&fit=crop
+- Drama: https://images.pexels.com/photos/713149/pexels-photo-713149.jpeg?auto=compress&w=600&h=400&fit=crop
+- Music: https://images.pexels.com/photos/164936/pexels-photo-164936.jpeg?auto=compress&w=600&h=400&fit=crop
+- Science: https://images.pexels.com/photos/256369/pexels-photo-256369.jpeg?auto=compress&w=600&h=400&fit=crop
+- Soccer: https://images.pexels.com/photos/399187/pexels-photo-399187.jpeg?auto=compress&w=600&h=400&fit=crop
+- Basketball: https://images.pexels.com/photos/1103835/pexels-photo-1103835.jpeg?auto=compress&w=600&h=400&fit=crop
+- Yoga: https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&w=600&h=400&fit=crop
+- French: https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg?auto=compress&w=600&h=400&fit=crop
+- Robotics: https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&w=600&h=400&fit=crop
+- Guitar: https://images.pexels.com/photos/164936/pexels-photo-164936.jpeg?auto=compress&w=600&h=400&fit=crop
+- Board Games: https://images.pexels.com/photos/220057/pexels-photo-220057.jpeg?auto=compress&w=600&h=400&fit=crop
+- Cooking: https://images.pexels.com/photos/2271101/pexels-photo-2271101.jpeg?auto=compress&w=600&h=400&fit=crop
+- Coding: https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&w=600&h=400&fit=crop
+- Film: https://images.pexels.com/photos/799137/pexels-photo-799137.jpeg?auto=compress&w=600&h=400&fit=crop
 
 ---
 

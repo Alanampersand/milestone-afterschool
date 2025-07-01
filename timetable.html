@@ -9,34 +9,341 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
 </head>
-<body>
-       <!-- Header -->
-    <header>
-        <a href="index.html">
-            <h1 id="logo">GETNS Extra Curricular Activities</h1>
-        </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label">X</label>
-        <nav>
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="timetable.html" class="active">Timetable</a></li>
-                <li><a href="appform.html">Application Form</a></li>
-                <li><a href="policies.html">Policies</a></li>
-            </ul>
-        </nav>
-    </header>
+<body class="timetable-bg">
+    <!-- Header -->
+    <!-- Responsive Bootstrap Navbar starts here -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">GETNS Extra Curricular Activities</a>
+        <!-- Hamburger toggler for small screens -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collapsible menu links -->
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="timetable.html">Timetable</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="appform.html">Application Form</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="policies.html">Policies</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Responsive Bootstrap Navbar ends here -->
     <main> 
-  <div class="container my-5">
+      <div class="container my-5">
         <div class="row justify-content-center">
-          <div class="col-12 col-md-8 col-lg-6 p-4 rounded-3 shadow-lg bg-white bg-opacity-75">
-            <h2>Timetable Goes Here</h2>
+          <div class="col-12">
+            <!-- Floating box for main Timetable header -->
+            <div class="bg-white bg-opacity-75 shadow-lg rounded-3 px-4 py-2 mb-4 d-inline-block">
+              <h2 class="mb-0">Timetable</h2>
+            </div>
+            <div class="row g-4">
+              <!-- Added Bootstrap "Kitchen sink" style cards for class offerings -->
+              <!-- Monday -->
+              <div class="col-12">
+                <!-- Floating box for weekday header -->
+                <div class="bg-white bg-opacity-75 shadow-lg rounded-3 px-4 py-2 d-inline-block mb-2">
+                  <h4 class="mb-0">Monday</h4>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="https://images.pexels.com/photos/207666/pexels-photo-207666.jpeg?auto=compress&w=600&h=400&fit=crop" alt="Art supplies on table">
+                  <div class="card-body">
+                    <h5 class="card-title">Art Club</h5>
+                    <p class="card-text">Explore creativity with painting, drawing, and crafts.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">3:00–4:00pm</li>
+                    <li class="list-group-item">Ages 7–10</li>
+                    <li class="list-group-item">€5 per session</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Details</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?auto=compress&w=600&h=400&fit=crop" alt="Chess board and pieces">
+                  <div class="card-body">
+                    <h5 class="card-title">Chess Club</h5>
+                    <p class="card-text">Learn chess strategies and play friendly matches.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">3:00–4:00pm</li>
+                    <li class="list-group-item">Ages 8–12</li>
+                    <li class="list-group-item">€4 per session</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Details</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="https://images.pexels.com/photos/713149/pexels-photo-713149.jpeg?auto=compress&w=600&h=400&fit=crop" alt="Children acting on stage">
+                  <div class="card-body">
+                    <h5 class="card-title">Drama Club</h5>
+                    <p class="card-text">Acting, improv, and fun theatre games for all levels.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">3:00–4:00pm</li>
+                    <li class="list-group-item">Ages 7–12</li>
+                    <li class="list-group-item">€5 per session</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Details</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Tuesday -->
+              <div class="col-12 mt-4">
+                <div class="bg-white bg-opacity-75 shadow-lg rounded-3 px-4 py-2 d-inline-block mb-2">
+                  <h4 class="mb-0">Tuesday</h4>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="https://images.pexels.com/photos/164936/pexels-photo-164936.jpeg?auto=compress&w=600&h=400&fit=crop" alt="Children playing music instruments">
+                  <div class="card-body">
+                    <h5 class="card-title">Music Club</h5>
+                    <p class="card-text">Learn instruments and play in a group setting.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">3:00–4:00pm</li>
+                    <li class="list-group-item">Ages 7–12</li>
+                    <li class="list-group-item">€6 per session</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Details</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="https://images.pexels.com/photos/256369/pexels-photo-256369.jpeg?auto=compress&w=600&h=400&fit=crop" alt="Science experiment with beakers">
+                  <div class="card-body">
+                    <h5 class="card-title">Science Club</h5>
+                    <p class="card-text">Fun experiments and hands-on science activities.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">3:00–4:00pm</li>
+                    <li class="list-group-item">Ages 8–12</li>
+                    <li class="list-group-item">€5 per session</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Details</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="https://images.pexels.com/photos/399187/pexels-photo-399187.jpeg?auto=compress&w=600&h=400&fit=crop" alt="Children playing soccer">
+                  <div class="card-body">
+                    <h5 class="card-title">Soccer Club</h5>
+                    <p class="card-text">Skills, drills, and friendly matches for all levels.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">3:00–4:00pm</li>
+                    <li class="list-group-item">Ages 7–11</li>
+                    <li class="list-group-item">€4 per session</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Details</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Wednesday -->
+              <div class="col-12 mt-4">
+                <div class="bg-white bg-opacity-75 shadow-lg rounded-3 px-4 py-2 d-inline-block mb-2">
+                  <h4 class="mb-0">Wednesday</h4>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="https://images.pexels.com/photos/1103835/pexels-photo-1103835.jpeg?auto=compress&w=600&h=400&fit=crop" alt="Basketball hoop and ball">
+                  <div class="card-body">
+                    <h5 class="card-title">Basketball Club</h5>
+                    <p class="card-text">Practice shooting, dribbling, and teamwork.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">3:00–4:00pm</li>
+                    <li class="list-group-item">Ages 8–12</li>
+                    <li class="list-group-item">€5 per session</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Details</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&w=600&h=400&fit=crop" alt="Children doing yoga">
+                  <div class="card-body">
+                    <h5 class="card-title">Yoga Club</h5>
+                    <p class="card-text">Stretch, relax, and learn basic yoga poses.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">3:00–4:00pm</li>
+                    <li class="list-group-item">Ages 7–12</li>
+                    <li class="list-group-item">€4 per session</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Details</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg?auto=compress&w=600&h=400&fit=crop" alt="French flag and books">
+                  <div class="card-body">
+                    <h5 class="card-title">French Club</h5>
+                    <p class="card-text">Fun language games and beginner French lessons.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">3:00–4:00pm</li>
+                    <li class="list-group-item">Ages 7–11</li>
+                    <li class="list-group-item">€5 per session</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Details</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Thursday -->
+              <div class="col-12 mt-4">
+                <div class="bg-white bg-opacity-75 shadow-lg rounded-3 px-4 py-2 d-inline-block mb-2">
+                  <h4 class="mb-0">Thursday</h4>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&w=600&h=400&fit=crop" alt="Robotics kit">
+                  <div class="card-body">
+                    <h5 class="card-title">Robotics Club</h5>
+                    <p class="card-text">Build and program simple robots and compete in challenges.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">3:00–4:00pm</li>
+                    <li class="list-group-item">Ages 9–12</li>
+                    <li class="list-group-item">€6 per session</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Details</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="https://images.pexels.com/photos/164936/pexels-photo-164936.jpeg?auto=compress&w=600&h=400&fit=crop" alt="Child playing guitar">
+                  <div class="card-body">
+                    <h5 class="card-title">Guitar Club</h5>
+                    <p class="card-text">Learn guitar basics and play songs together.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">3:00–4:00pm</li>
+                    <li class="list-group-item">Ages 8–12</li>
+                    <li class="list-group-item">€5 per session</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Details</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="https://images.pexels.com/photos/220057/pexels-photo-220057.jpeg?auto=compress&w=600&h=400&fit=crop" alt="Board games on table">
+                  <div class="card-body">
+                    <h5 class="card-title">Board Games Club</h5>
+                    <p class="card-text">Play classic and new board games with friends.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">3:00–4:00pm</li>
+                    <li class="list-group-item">Ages 7–12</li>
+                    <li class="list-group-item">€4 per session</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Details</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Friday -->
+              <div class="col-12 mt-4">
+                <div class="bg-white bg-opacity-75 shadow-lg rounded-3 px-4 py-2 d-inline-block mb-2">
+                  <h4 class="mb-0">Friday</h4>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="https://images.pexels.com/photos/2271101/pexels-photo-2271101.jpeg?auto=compress&w=600&h=400&fit=crop" alt="Children cooking">
+                  <div class="card-body">
+                    <h5 class="card-title">Cooking Club</h5>
+                    <p class="card-text">Learn to make simple, healthy snacks and meals.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">3:00–4:00pm</li>
+                    <li class="list-group-item">Ages 8–12</li>
+                    <li class="list-group-item">€6 per session</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Details</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&w=600&h=400&fit=crop" alt="Child coding on laptop">
+                  <div class="card-body">
+                    <h5 class="card-title">Coding Club</h5>
+                    <p class="card-text">Fun programming projects and games for beginners.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">3:00–4:00pm</li>
+                    <li class="list-group-item">Ages 9–12</li>
+                    <li class="list-group-item">€5 per session</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Details</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="https://images.pexels.com/photos/799137/pexels-photo-799137.jpeg?auto=compress&w=600&h=400&fit=crop" alt="Film reel and clapperboard">
+                  <div class="card-body">
+                    <h5 class="card-title">Film Club</h5>
+                    <p class="card-text">Watch and discuss great movies together.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">3:00–4:00pm</li>
+                    <li class="list-group-item">Ages 7–12</li>
+                    <li class="list-group-item">€4 per session</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
     </main>
-    <p>Here you will find the timetable</p>
+     <footer class="text-center py-3 bg-light bg-opacity-75">
+      <small>&copy; 2025 Glasnevin National School ECA</small>
+    </footer>
+
     <!-- Bootstrap JS script goes at the bottom of the body element -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
