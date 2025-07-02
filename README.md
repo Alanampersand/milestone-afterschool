@@ -161,13 +161,13 @@ This project uses **Git** for version control and is hosted on **GitHub**:
 - All HTML files were validated using the [W3C Markup Validation Service](https://validator.w3.org/) as detailed below
 - No errors or critical warnings were found after correcting minor issues around favicon name and other image name spacing
 
-| Page         | W3C Validator URL                                                                 | Screenshot                                 | Notes                                 |
-|--------------|-----------------------------------------------------------------------------------|--------------------------------------------|---------------------------------------|
-| index.html   | https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Findex.html                                           | ![index](assets/screenshots/index-html-pass.png)   | Passed, favicon filename fixed        |
-| timetable.html| https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Ftimetable.html                                | ![timetable](assets/screenshots/timetable-html-pass.png) | Passed, all images local             |
-| appform.html | https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Fappform.html                                  | ![appform](assets/screenshots/appform-html-pass.png)     | Passed, required fields marked        |
-| policies.html| https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Fpolicies.html                                 | ![policies](assets/screenshots/policies-html-pass.png)   | Passed, background image attribution  |
-| confirmation.html| https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Fconfirmation.html                         | ![confirmation](assets/screenshots/confirmation-html-pass.png) | Passed, static confirmation page     |
+| Page         | W3C Validator URL                                                                 | Screenshot                                 |
+|--------------|-----------------------------------------------------------------------------------|--------------------------------------------|
+| index.html   | https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Findex.html                                           | ![index](assets/screenshots/index-html-pass.png)   |
+| timetable.html| https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Ftimetable.html                                | ![timetable](assets/screenshots/timetable-html-pass.png) |
+| appform.html | https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Fappform.html                                  | ![appform](assets/screenshots/appform-html-pass.png)     |
+| policies.html| https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Fpolicies.html                                 | ![policies](assets/screenshots/policies-html-pass.png)   |
+| confirmation.html| https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Fconfirmation.html                         | ![confirmation](assets/screenshots/confirmation-html-pass.png) |
 
 ### CSS Validation
 - CSS was checked using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
