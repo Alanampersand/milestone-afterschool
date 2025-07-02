@@ -114,7 +114,7 @@ Add Wireframes here:
 
 ### Favicon
 
-<a href="https://www.flaticon.com/free-icons/children" title="children icons">Children icons created by gravisio - Flaticon</a>
+- [children icons](https://www.flaticon.com/free-icons/children) gravisio - Flaticon
 
 ### Homepage Background
 - [pexels-goumbik-296302.jpg](https://www.pexels.com/photo/296302/) by Lukas, Pexels
