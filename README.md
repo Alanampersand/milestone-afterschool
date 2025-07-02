@@ -96,11 +96,9 @@ Add Wireframes here:
 ## Deployment
 
 - For testing locally, I used `python3 -m http.server 8000` to start a local web server and visited http://localhost:8000 frequently when making changes 
-- I then  deployed via **GitHub Pages** following GitHub's documentation [Github Pages](https://pages.github.com/) and this can be accessed at:
+- I then deployed publicly via **GitHub Pages** following GitHub's documentation [Github Pages](https://pages.github.com/) and this can be accessed at:
 
-> 🔗 [later](later)
-
-_Update the link after deployment._
+> 🔗 [Milestone project afterschool clubs](https://github.com/Alanampersand/milestone-afterschool/settings/pages)
 
 ---
 
@@ -115,7 +113,10 @@ _Update the link after deployment._
 ## Images sourced free from Pexels.com
 
 ### Homepage Background
-- **Main background image:** [pexels-goumbik-296302.jpg](https://www.pexels.com/photo/296302/) by Lukas, Pexels
+- [pexels-goumbik-296302.jpg](https://www.pexels.com/photo/296302/) by Lukas, Pexels
+
+## Policies Background
+- [pencil-and-letter-tiles-on-a-clipboard-8099630/](https://www.pexels.com/photo/pencil-and-letter-tiles-on-a-clipboard-8099630/) by DS stories, Pexels 
 
 ### Timetable Activity Cards
 - **Art Club:** [Art supplies on table](https://www.pexels.com/photo/207666/) by Pixabay, Pexels

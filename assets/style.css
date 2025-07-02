@@ -1,6 +1,6 @@
 /* Special background for timetable page */
 .timetable-bg {
-    /* Soft vertical gradient fade: light blue to white */
+    /* Replaced timetable background image with gradient: light blue to white as image did not scale well*/
     background-image: linear-gradient(to bottom, #e3f0ff 0%, #ffffff 100%);
     background-size: cover;
     background-repeat: no-repeat;
@@ -64,4 +64,27 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+}
+/*added box shadow to cards to improve appearance */
+.timetable-bg .card { 
+    box-shadow: 10px 5px 5px #8A8A8A;
+}
+/*centering cards on mobile without centering days and timetable header */
+
+@media (max-width: 767.98px) {
+  .timetable-bg .card {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+}
+/*Adding policy background image*/
+
+.policies-bg {
+    background-image: url('pexels-ds-stories-8099630.webp');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 200%;
+
 }
