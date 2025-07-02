@@ -42,9 +42,57 @@
       <div class="container my-5">
         <div class="row justify-content-center">
           <div class="col-12 col-md-8 col-lg-6 p-4 rounded-3 shadow-lg bg-white bg-opacity-90 text-center">
-            <h2 class="mb-3">Thank You!</h2>
-            <p>Your application has been received. We will contact you soon with more information about your chosen activity.</p>
-            <a href="index.html" class="btn btn-primary mt-3">Return to Home</a>
+            <h2 class="mb-3">Please apply below</h2>
+            <!--  Form taken from https://www.w3schools.com/html/html_form_input_types.asp-->
+            <form action="confirmation.html">
+  <label for="fname">Child's first name:<span class="text-danger">*</span></label><br>
+  <input type="text" id="fname" name="fname" value="" required><br>
+  <label for="lname">Child's surname:<span class="text-danger">*</span></label><br>
+  <input type="text" id="lname" name="lname" value="" required><br><br>
+  <label for="email">Parent's Email:<span class="text-danger">*</span></label><br>
+  <input type="email" id="email" name="email" value="" required><br><br>
+  <label for="class">First Class Choice<span class="text-danger">*</span></label><br>
+  <select id="class" name="class" required>
+    <option value="">--First Class Choice--</option>
+    <option value="art">Art Club (Monday)</option>
+    <option value="chess">Chess Club (Monday)</option>
+    <option value="drama">Drama Club (Monday)</option>
+    <option value="taekwondo">Taekwondo (Tuesday)</option>
+    <option value="science">Science Club (Tuesday)</option>
+    <option value="soccer">Soccer Club (Tuesday)</option>
+    <option value="basketball">Basketball Club (Wednesday)</option>
+    <option value="yoga">Yoga Club (Wednesday)</option>
+    <option value="french">French Club (Wednesday)</option>
+    <option value="robotics">Robotics Club (Thursday)</option>
+    <option value="guitar">Guitar Club (Thursday)</option>
+    <option value="boardgames">Board Games Club (Thursday)</option>
+    <option value="cooking">Cooking Club (Friday)</option>
+    <option value="coding">Coding Club (Friday)</option>
+    <option value="film">Film Club (Friday)</option>
+  </select><br><br>
+  <label for="class2">Second Class Choice (optional)</label><br>
+  <select id="class2" name="class2">
+    <option value="">--Second Class Choice--</option>
+    <option value="art">Art Club (Monday)</option>
+    <option value="chess">Chess Club (Monday)</option>
+    <option value="drama">Drama Club (Monday)</option>
+    <option value="taekwondo">Taekwondo (Tuesday)</option>
+    <option value="science">Science Club (Tuesday)</option>
+    <option value="soccer">Soccer Club (Tuesday)</option>
+    <option value="basketball">Basketball Club (Wednesday)</option>
+    <option value="yoga">Yoga Club (Wednesday)</option>
+    <option value="french">French Club (Wednesday)</option>
+    <option value="robotics">Robotics Club (Thursday)</option>
+    <option value="guitar">Guitar Club (Thursday)</option>
+    <option value="boardgames">Board Games Club (Thursday)</option>
+    <option value="cooking">Cooking Club (Friday)</option>
+    <option value="coding">Coding Club (Friday)</option>
+    <option value="film">Film Club (Friday)</option>
+  </select><br><br>
+    <input type="checkbox" id="policies" name="policies" value="policies" required>
+  <label for="policies"> I have read and agree to the <a href="policies.html"> ECA policies</a><span class="text-danger">*</span></label><br>
+  <input type="submit" value="Submit">
+</form>
           </div>
         </div>
       </div>
