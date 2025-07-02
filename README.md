@@ -96,9 +96,11 @@ Add Wireframes here:
 ## Deployment
 
 - For testing locally, I used `python3 -m http.server 8000` to start a local web server and visited http://localhost:8000 frequently when making changes 
-- I then deployed publicly via **GitHub Pages** following GitHub's documentation [Github Pages](https://pages.github.com/) and this can be accessed at:
+- I then deployed publicly via **GitHub Pages** following GitHub's documentation [Github Pages](https://pages.github.com/) and this can be accessed here:
 
-> 🔗 [Milestone project afterschool clubs](https://github.com/Alanampersand/milestone-afterschool/settings/pages)
+> [Milestone project afterschool clubs](https://github.com/Alanampersand/milestone-afterschool/settings/pages)
+
+- You are welcome to clone this repository following the steps outlined in GitHub for this: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 
 ---
 
@@ -153,59 +155,39 @@ This project uses **Git** for version control and is hosted on **GitHub**:
 
 
 
-**Must-haves to include based on video:**
+## 🧪 Testing
 
-- Instructions for how this was deployed to GitHub Pages: https://pages.github.com/
-- Instructions for how my project can be cloned and deployed locally to port 8000
-- Instructions on tests performed (may be in a separate testing.md file)
-    -https://validator.w3.org/
-    - https://jigsaw.w3.org/css-validator/
-    -https://developers.google.com/web/tools/lighthouse
+### HTML Validation
+- All HTML files were validated using the [W3C Markup Validation Service](https://validator.w3.org/) as detailed below
+- No errors or critical warnings were found after correcting minor issues around favicon name and other image name spacing
 
+| Page         | W3C Validator URL                                                                 | Screenshot                                 | Notes                                 |
+|--------------|-----------------------------------------------------------------------------------|--------------------------------------------|---------------------------------------|
+| index.html   | https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Findex.html                                           | ![index](assets/screenshots/index-html-pass.png)   | Passed, favicon filename fixed        |
+| timetable.html| https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Ftimetable.html                                | ![timetable](assets/screenshots/timetable-html-pass.png) | Passed, all images local             |
+| appform.html | https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Fappform.html                                  | ![appform](assets/screenshots/appform-html-pass.png)     | Passed, required fields marked        |
+| policies.html| https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Fpolicies.html                                 | ![policies](assets/screenshots/policies-html-pass.png)   | Passed, background image attribution  |
+| confirmation.html| https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Fconfirmation.html                         | ![confirmation](assets/screenshots/confirmation-html-pass.png) | Passed, static confirmation page     |
 
-**Pre-submission Assessment Criteria:**
+### CSS Validation
+- CSS was checked using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+- No errors found in `assets/style.css` after final adjustments.
+- Bootstrap CSS is externally hosted and assumed valid.
 
-**from https://docs.google.com/forms/d/e/1FAIpQLSelPSf-wTwnlIIduZVKnUBNGmIkBOx6oP8fbZr1WiCh4od5-g/viewform** 
-Using each criterion as a prompt, self-assess your project and ask yourself:
+### Accessibility & Performance (Lighthouse)
+- The site was tested using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools.
+- Key results:
+  - **Performance:** Fast load times and responsive layout.
+  - **Accessibility:** All images have alt text, color contrast is sufficient, and navigation is keyboard accessible.
+  - **Best Practices:** No major issues detected.
+  - **SEO:** All pages have appropriate meta tags and semantic structure.
+- See `assets/screenshots/` for Lighthouse report screenshots.
 
-> **How satisfied am I that I have demonstrated this criterion?**
-
----
-
-### Project Purpose
-
-| Criteria | Dissatisfied 😟 | OK 😐 | Very Satisfied 😀 |
-|----------|------------------|------|-------------------|
-| The project has a clear, well-defined purpose addressing the needs of a particular target audience (or multiple related audiences). | ⭘ | ⭘ | ⭘ |
-| The project’s purpose is evident to a new user without having to look in the documentation. | ⭘ | ⭘ | ⭘ |
-| The project’s documentation provides a clear rationale for the development of this project. | ⭘ | ⭘ | ⭘ |
-
----
-
-### UX Design
-
-| Criteria | Dissatisfied 😟 | OK 😐 | Very Satisfied 😀 |
-|----------|------------------|------|-------------------|
-| The project's documentation describes the UX design work undertaken for this project and the reasoning behind it. | ⭘ | ⭘ | ⭘ |
-| Any wireframes, mockups, diagrams etc. you created as part of the design process are included in the project. | ⭘ | ⭘ | ⭘ |
+### Manual Testing
+- The site was tested on multiple devices (desktop, tablet, mobile) and browsers (Chrome, Firefox, Safari, Edge).
+- All navigation links, forms, and buttons were checked for correct operation.
+- Responsive layout and sticky navigation/footer were verified.
 
 ---
 
-### Suitability for Purpose
 
-| Criteria | Dissatisfied 😟 | OK 😐 | Very Satisfied 😀 |
-|----------|------------------|------|-------------------|
-| The site's design, as implemented, provides a good solution to the users' demands and expectations. | ⭘ | ⭘ | ⭘ |
-| A regular user would not immediately think "there's a much better way to do this" about any part of the project. | ⭘ | ⭘ | ⭘ |
-
----
-
-### Navigation
-
-| Criteria | Dissatisfied 😟 | OK 😐 | Very Satisfied 😀 |
-|----------|------------------|------|-------------------|
-| All resources on the site are easy to find, allowing users to navigate the layout of the site intuitively. | ⭘ | ⭘ | ⭘ |
-| The site’s navigation is consistent and reasoned. | ⭘ | ⭘ | ⭘ |
-| There is never a need to use the Back button to move through the site. | ⭘ | ⭘ | ⭘ |
-| For any external links, the target=”_blank” attribute is used. | ⭘ | ⭘ | ⭘ |
-| There are no broken links. | ⭘ | ⭘ | ⭘ |
