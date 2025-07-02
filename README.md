@@ -112,6 +112,10 @@ Add Wireframes here:
 
 ## Images sourced free from Pexels.com
 
+### Favicon
+
+<a href="https://www.flaticon.com/free-icons/children" title="children icons">Children icons created by gravisio - Flaticon</a>
+
 ### Homepage Background
 - [pexels-goumbik-296302.jpg](https://www.pexels.com/photo/296302/) by Lukas, Pexels
 
@@ -123,7 +127,7 @@ Add Wireframes here:
 - **Chess Club:** [Chess board and pieces](https://www.pexels.com/photo/260024/) by Pixabay, Pexels
 - **Drama Club:** [Children acting on stage](https://www.pexels.com/photo/713149/) by Pixabay, Pexels
 - **Taekwondo:** [Child learning taekwondo](https://www.pexels.com/photo/7045555/) by RDNE Stock project, Pexels
-- **Science Club:** [Science experiment with beakers](https://www.pexels.com/photo/256369/) by Pixabay, Pexels
+- **Science Club:** [Child with microscope](https://www.pexels.com/photo/a-boy-in-white-shirt-sitting-while-holding-a-microscope-8923799/) by Pixabay, Pexels
 - **Soccer Club:** [Children playing soccer](https://www.pexels.com/photo/399187/) by Pixabay, Pexels
 - **Basketball Club:** [Basketball on court](https://www.pexels.com/photo/30637225/) by RDNE Stock project, Pexels
 - **Yoga Club:** [Children doing yoga](https://www.pexels.com/photo/8613312/) by Yan Krukau, Pexels
