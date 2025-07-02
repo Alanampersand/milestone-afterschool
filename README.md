@@ -163,25 +163,35 @@ This project uses **Git** for version control and is hosted on **GitHub**:
 
 | Page         | W3C Validator URL                                                                 | Screenshot                                 |
 |--------------|-----------------------------------------------------------------------------------|--------------------------------------------|
-| index.html   | https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Findex.html                                           | ![index](assets/images/index-html-pass.png)   |
+| index.html   | https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Findex.html                                           | |
 | timetable.html| https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Ftimetable.html                                | ![timetable](assets/images/timetable-html-pass.png) |
 | appform.html | https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Fappform.html                                  | ![appform](assets/images/appform-html-pass.png)     |
 | policies.html| https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Fpolicies.html                                 | ![policies](assets/images/policies-html-pass.png)   |
 | confirmation.html| https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Fconfirmation.html                         | ![confirmation](assets/images/confirmation-html-pass.png) |
 
 ### CSS Validation
-- CSS was checked using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
-- No errors found in `assets/style.css` after final adjustments.
-- Bootstrap CSS is externally hosted and assumed valid.
+
+- All CSS files were validated using the [W3C Jigsaw Validation Service](https://jigsaw.w3.org/css-validator) as detailed below
+
+
+| Page         | W3C Validator URL                                                                 | Screenshot                                 |
+|--------------|-----------------------------------------------------------------------------------|--------------------------------------------|
+| style.css.   | https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en                                           | ![index](assets/images/css-valid-pass.png)   
 
 ### Accessibility & Performance (Lighthouse)
-- The site was tested using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools.
-- Key results:
-  - **Performance:** Fast load times and responsive layout.
-  - **Accessibility:** All images have alt text, color contrast is sufficient, and navigation is keyboard accessible.
-  - **Best Practices:** No major issues detected.
-  - **SEO:** All pages have appropriate meta tags and semantic structure.
-- See `assets/screenshots/` for Lighthouse report screenshots.
+- The site was tested using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools and received top results in all areas.
+
+| Page      | Lighthouse Report URL                                                                                                         | Screenshot                                      |
+|-----------|------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
+| mobile site | [Lighthouse Mobile Report](https://pagespeed.web.dev/analysis/https-alanampersand-github-io-milestone-afterschool/sj6ygx85ou?form_factor=mobile) | ![lighthouse](assets/images/lighthouse-pass-mobile.png) |
+| desktop site | [Lighthouse Desktop Report](https://pagespeed.web.dev/analysis/https-alanampersand-github-io-milestone-afterschool/sj6ygx85ou?form_factor=desktop) | ![lighthouse](assets/images/lighthouse-pass-desktop.png) |
+**Key results:**
+- **Performance:** Fast load times and responsive layout.
+- **Accessibility:** All images have alt text, color contrast is sufficient, and navigation is keyboard accessible.
+- **Best Practices:** No major issues detected.
+- **SEO:** All pages have appropriate meta tags and semantic structure.
+
+- See `assets/images/` for Lighthouse report screenshots.
 
 ### Manual Testing
 - The site was tested on multiple devices (desktop, tablet, mobile) and browsers (Chrome, Firefox, Safari, Edge).
