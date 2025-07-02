@@ -40,19 +40,31 @@ The website includes:
    - Overview of how it's managed and who the committee members are  
    - General mission and goals of the program  
 
+   <img src="assets/images/homepage-desktop.png" alt="Homepage" style="max-width:400px;">
+
 2. **Timetable & Class Information**
-   - Grid view of available classes  
+   - Grid view of available classes
    - Each class links to a subpage with detailed information (description, age group, schedule, fees, etc.)
 
+   <br>
+   <img src="assets/images/timetable-desktop.png" alt="Timetable desktop" style="max-width:400px;"><br>
+   <sub>Timetable page on desktop</sub>
+   <br>
+   <img src="assets/images/timetable-mobile.png" alt="Timetable mobile" style="max-width:200px;"><br>
+   <sub>Timetable page on mobile</sub>
+
+
 3. **Application Process**
-   - Step-by-step guide on how to apply  
-   - Embedded or linked form for submitting interest  
-   - Deadlines and contact details  
+   - Simple application form accessible from anywhere onsite
+   - Required fields clearly marked and enforced in form structure
+         <img src="assets/images/appform-desktop.png" alt="Application Form Desktop" style="max-width:400px;">
+
 
 4. **Policies Page**
    - Code of conduct  
-   - Cancellation and refund policy  
    - Safety and supervision guidelines  
+<img src="assets/images/policy-desktop.png" alt="Policies Desktop" style="max-width:400px;">
+<img src="assets/images/appform-desktop.png" alt="Policies Mobile" style="max-width:200px;">
 
 ---
 
@@ -69,48 +81,40 @@ The website includes:
 - Information about who provides the class (e.g. my teacher, an external provider?)
 
 > **As a parent involved in running the committee, I want:**
-- Somewhere to direct parents with questions to avoid repeating information
-
-**Todo: Expand on user stories**
-   - Step-by-step guide on how to apply  
-   - Embedded or linked form for submitting interest  
-   - Deadlines and contact details 
+- Somewhere to direct parents with questions to avoid repeating information about class timetable and where to find the form link
 
 ---
+
+## Gallery
+
 
 ## Information Architecture
 
 - Navigation menu accessible on every page  
 - Clear layout with headings and sections  
-- Mobile-friendly using responsive CSS
+- Mobile-friendly using responsive CSS including navbar
 
----
-
-## Wireframes
-
-Add Wireframes here: 
-
+<img src="assets/images/navbar-mobile.png" alt="Navbar Mobile" style="max-width:200px;">
 
 ---
 
 ## Deployment
 
 - For testing locally, I used `python3 -m http.server 8000` to start a local web server and visited http://localhost:8000 frequently when making changes 
-- I then deployed publicly via **GitHub Pages** following GitHub's documentation [Github Pages](https://pages.github.com/) and this can be accessed here:
+- I then deployed publicly via **GitHub Pages** following GitHub's documentation [Github Pages](https://pages.github.com/) and this can be accessed here: [Milestone project afterschool clubs](https://github.com/Alanampersand/milestone-afterschool/settings/pages)
 
-> [Milestone project afterschool clubs](https://github.com/Alanampersand/milestone-afterschool/settings/pages)
-
-- You are welcome to clone this repository following the steps outlined in GitHub for this: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+- You are welcome to clone this repository following the steps outlined in GitHub: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 
 ---
 
-## Attribution
 
-- Custom code written by Alan Doyle  
+## Attribution & Acknowledgements
+
+- Custom code written by Alan Doyle through VSCode
 - Layout assisted using [Bootstrap](https://getbootstrap.com/)
-- Icons from [FontAwesome](https://fontawesome.com/)  
+- Fonts from [Google Fonts](https://fonts.google.com/) (Nunito)
 - Any borrowed code is clearly attributed inline and listed here.
-
+- Special thanks to [Lewis Dillon](https://github.com/LewisMDillon) for facilitating our cohort and providing last minute advice and direction on necessary improvements to this project
 
 ## Images sourced free from Pexels.com
 
@@ -163,7 +167,7 @@ This project uses **Git** for version control and is hosted on **GitHub**:
 
 | Page         | W3C Validator URL                                                                 | Screenshot                                 |
 |--------------|-----------------------------------------------------------------------------------|--------------------------------------------|
-| index.html   | https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Findex.html                                           | |
+| index.html   | https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Findex.html                                           | ![index](assets/images/index-html-pass.png)|
 | timetable.html| https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Ftimetable.html                                | ![timetable](assets/images/timetable-html-pass.png) |
 | appform.html | https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Fappform.html                                  | ![appform](assets/images/appform-html-pass.png)     |
 | policies.html| https://validator.w3.org/nu/?doc=https%3A%2F%2Falanampersand.github.io%2Fmilestone-afterschool%2Fpolicies.html                                 | ![policies](assets/images/policies-html-pass.png)   |
@@ -191,11 +195,9 @@ This project uses **Git** for version control and is hosted on **GitHub**:
 - **Best Practices:** No major issues detected.
 - **SEO:** All pages have appropriate meta tags and semantic structure.
 
-- See `assets/images/` for Lighthouse report screenshots.
-
 ### Manual Testing
-- The site was tested on multiple devices (desktop, tablet, mobile) and browsers (Chrome, Firefox, Safari, Edge).
-- All navigation links, forms, and buttons were checked for correct operation.
+- The site was tested on multiple devices (desktop, tablet, mobile) and browsers (Chrome, Firefox, Safari, Edge) and found to be functional and performant.
+- All navigation links, forms, and buttons were checked for correct operation, with required fields enforced and correctly labelled in the UI
 - Responsive layout and sticky navigation/footer were verified.
 
 ---

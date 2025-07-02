@@ -7,16 +7,18 @@
     background-attachment: fixed;
     background-position: center;
 }
-   body {
+
+body {
     /* Background image from Lukas on Pexels */
     background-image: url('images/pexels-goumbik-296302.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-             display: flex;
+    display: flex;
     flex-direction: column;
     min-height: 100vh;
-        }
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+}
 
         header {
     background: #fff; /* solid white background */
