@@ -113,6 +113,7 @@ The website includes:
 - Fonts from [Google Fonts](https://fonts.google.com/) (Nunito)
 - Any borrowed code is clearly attributed inline and listed here.
 - Special thanks to [Lewis Dillon](https://github.com/LewisMDillon) for facilitating our cohort and providing last minute advice and direction on necessary improvements to this project
+- Application Form adapted from [W3 Schools](https://www.w3schools.com/html/html_form_input_types.asp)  
 
 ## Images sourced free from Pexels.com
 
