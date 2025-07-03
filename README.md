@@ -19,8 +19,6 @@ The site is built using custom HTML5 and CSS3 (with Bootstrap for layout). It is
 - **Reduce Admin Load**: Allow the ECA committee to direct parents to the site instead of repeating information.
 - **Ensure Transparency**: Clearly outline policies and processes for participation.
 
-**Todo: Expand on these goals considered against the 5 pillars of UX from earlier class**
-
 ---
 
 ## Target Audience
@@ -37,14 +35,13 @@ The website includes:
 
 1. **Homepage**
    - Introduction to the ECA program  
-   - Overview of how it's managed and who the committee members are  
-   - General mission and goals of the program  
+   - General information about class prices and how to apply
 
    <img src="assets/images/homepage-desktop.png" alt="Homepage" style="max-width:400px;">
 
 2. **Timetable & Class Information**
-   - Grid view of available classes
-   - Each class links to a subpage with detailed information (description, age group, schedule, fees, etc.)
+   - Grid view of available classes in card form
+   - Each class contains key information (description, age group, schedule, fees, etc.)
 
    <br>
    <img src="assets/images/timetable-desktop.png" alt="Timetable desktop" style="max-width:400px;"><br>
@@ -55,7 +52,7 @@ The website includes:
 
 
 3. **Application Process**
-   - Simple application form accessible from anywhere onsite
+   - Simple application form accessible from anywhere onsite through the header
    - Required fields clearly marked and enforced in form structure
          <img src="assets/images/appform-desktop.png" alt="Application Form Desktop" style="max-width:400px;">
 
@@ -64,8 +61,6 @@ The website includes:
    - Code of conduct  
    - Safety and supervision guidelines  
 <img src="assets/images/policy-desktop.png" alt="Policies Desktop" style="max-width:400px;">
-<img src="assets/images/appform-desktop.png" alt="Policies Mobile" style="max-width:200px;">
-
 ---
 
 ## User Story
