@@ -54,7 +54,10 @@ The website includes:
 3. **Application Process**
    - Simple application form accessible from anywhere onsite through the header
    - Required fields clearly marked and enforced in form structure
+   - Confirmation page following completed application
          <img src="assets/images/appform-desktop.png" alt="Application Form Desktop" style="max-width:400px;">
+           <img src="assets/images/appform-filled-mobile.png" alt="Application Form completed mobile" style="max-width:400px;">
+            <img src="assets/images/appform-confirmation.png" alt="Application Form confirmation" style="max-width:400px;">
 
 
 4. **Policies Page**
